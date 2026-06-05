@@ -8,7 +8,7 @@ wss.on('connection' , (ws) =>{
     ws.on('message' , (message) =>{
         console.log('Received The message')
     
-    ws.send(`Server says : You sent : ${message}`)
+    ws.send(`Server says :Server Saying You sent : ${message}`)
     })
 
     ws.on('close' , () =>{
