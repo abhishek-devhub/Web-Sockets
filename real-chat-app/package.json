@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "socket-server" : "node server.js",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
@@ -17,6 +18,7 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "concurrently": "^9.2.1",
     "eslint": "^9",
     "eslint-config-next": "16.2.7",
     "tailwindcss": "^4"
